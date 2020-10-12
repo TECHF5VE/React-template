@@ -1,8 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
+  const a = true;
   return (
     <div className="App">
       <header className="App-header">
@@ -10,6 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        {a && <span>1344</span>}
         <a
           className="App-link"
           href="https://reactjs.org"
